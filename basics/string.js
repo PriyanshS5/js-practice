@@ -14,3 +14,6 @@ console.log(anotherStr);
 
 const anotherStr1 = newName.substring(0,2);
 console.log(anotherStr1);
+
+const newstring = new String("    Priyansh    ");
+console.log(newstring.trim());
