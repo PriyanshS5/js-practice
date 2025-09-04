@@ -9,3 +9,6 @@ console.log(newNumber.toFixed(2)); //it gives a precise decimal value after it
 
 const other = 123.88;
 console.log(other.toPrecision(3)); // it gives a precise value of the given digits so be carefull
+
+const value = 100000000;
+console.log(value.toLocaleString('en-IN'));
